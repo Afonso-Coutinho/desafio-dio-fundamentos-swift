@@ -3,8 +3,7 @@ import UIKit
 let name = "Steve";
 var lastName: String? = "Jobs";
 
-lastName = "Wozniak";
-print("\(name) \(lastName)");
+print("\(name) \(lastName ?? "Wozniak")")
 
 
 if let lastName = lastName {
